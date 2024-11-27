@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body> 
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt=""> 
+            <p>Uma manhã movimentada no hospital, enquanto Meredith revisa relatórios, a Dra. Miranda Bailey aparece em seu escritório com uma expressão séria.
+                — Meredith, chegou uma proposta que eu acho que você precisa considerar.
+                Bailey explica que Meredith foi convidada para liderar um programa médico inovador em Londres, onde uma equipe está trabalhando em um avanço revolucionário na medicina regenerativa. O projeto terá duração de dois anos e exigirá que ela se mude para a Europa.</p>
+            <button class="btn-proximo" data-proximo="1">aceitar</button>
+            <button class="btn-proximo" data-proximo="2">recusar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>agora Meredith precisa contar às crianças. Zola, Bailey e Ellis têm opiniões fortes, e Zola, especialmente, expressa preocupação.
+                — Mamãe, vamos ter que deixar nossos amigos? — pergunta Zola.</p>
+            <button class="btn-proximo" data-proximo="3">“Será uma aventura para todos nós.”</button>
+            <button class="btn-proximo" data-proximo="4">Não vou fazer nada que prejudique vocês.”</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>a Dra. Bailey oferece um caso no hospital: um paciente em estado crítico que precisa de um procedimento arriscado, algo que só você pode fazer. O caso envolve uma jovem chamada Clara, cuja história ressoa com algo do  passado de Meredith</p>
+            <button class="btn-proximo" data-proximo="5">Assumir o caso.</button>
+            <button class="btn-proximo" data-proximo="6">Delegar para outro cirurgião.</button>
+        </div>   
+        <div class="passo" id="passo-3">
+            <p>Então la foram eles</p>
+            <button class="btn-proximo" data-proximo="7">chegando la</button>
+        </div> 
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Zola entendeu</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>o projeto em Londres, enfrenta desafios ao se adaptar à equipe. O neurocientista Dr. Lucas Delacroix, o "gênio difícil", questiona  decisões. de Meredith  Durante uma discussão acalorada, ele diz:
+                — Com todo o respeito, Dra. Grey, você está mais preocupada em proteger sua reputação do que em correr os riscos necessários</p>
+            <button class="btn-proximo" data-proximo="7">Responder com firmeza.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Clara sofre complicações durante a cirurgia, e Meredith deve decidir entre um procedimento experimental ou um tratamento mais seguro, mas menos eficaz.</p>
+            <button class="btn-proximo" data-proximo="8">Procedimento experimental</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Um evento inesperado coloca tudo de cabeça para baixo. Em Londres, um paciente crítico que você tratou durante um estudo piloto tem uma recuperação impressionante, e isso vira manchete mundial. Agora, o projeto recebe mais atenção do que nunca, mas também críticas intensas.
+            </p>
+            <button class="btn-proximo" data-proximo="9">Mantenha o foco interno.</button>
+            <button class="btn-proximo" data-proximo="10">Repense sua trajetória.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Infelizmente o procedimento não deu certo, Meredith decidiu aceitar a viagem</p>
+            <button class="btn-proximo" data-proximo="7">ir para viagem</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+        </p>ela só tem cada vez mais progresso com o projeto, e consegue salvar muitas vidas</p>
+            <button class="btn-proximo" data-proximo="11">A Líder Visionária</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Meredith fica chateada pois com todo esse projeto, ela esta passando menos tempo com seus filhos, mas mesmo assim quer continuar tentando</p>
+            <button class="btn-proximo" data-proximo="12">continuar</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Meredith usou sua influência para transformar a medicina globalmente, mas o preço foi alto: menos tempo com seus filhos e uma crescente sensação de solidão. No entanto, a gratidão dos pacientes mudou o mundo ao seu redor.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Meredith continuou se dedicando ao projeto e estudando </p>
+            <button class="btn-proximo" data-proximo="11">A Líder Visionária</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
